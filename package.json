@@ -1,15 +1,17 @@
 {
   "name": "eslint-config-msrose",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "My eslint config",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/msrose/eslint-config-msrose.git"
   },
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": "Michael Rose <michael_rose@outlook.com>",
   "license": "MIT",
   "bugs": {
