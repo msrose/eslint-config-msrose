@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-msrose",
+  "version": "0.0.1",
+  "description": "My eslint config",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msrose/eslint-config-msrose.git"
+  },
+  "keywords": ["eslint", "eslintconfig"],
+  "author": "Michael Rose <michael_rose@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msrose/eslint-config-msrose/issues"
+  },
+  "homepage": "https://github.com/msrose/eslint-config-msrose#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
