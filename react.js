@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 module.exports = {
   parserOptions: {
     ecmaFeatures: {
@@ -18,13 +20,13 @@ module.exports = {
     'react/require-default-props': 'error',
     'react/self-closing-comp': 'error',
     'react/style-prop-object': 'error',
-    'react/void-dom-elements-no-children',
+    'react/void-dom-elements-no-children': 'error',
     'react/jsx-boolean-value': ['error', 'always'],
     'react/jsx-closing-bracket-location': 'error',
     'react/jsx-closing-tag-location': 'error',
     'react/jsx-curly-spacing': 'error',
     'react/jsx-equals-spacing': 'error',
-    'react/jsx-first-prop-newline': 'error',
+    'react/jsx-first-prop-new-line': 'error',
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-no-bind': 'error',

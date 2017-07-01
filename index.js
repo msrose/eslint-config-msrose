@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 module.exports = {
   parserOptions: {
     ecmaVersion: 6
@@ -7,9 +9,9 @@ module.exports = {
   },
   extends: 'eslint:recommended',
   rules: {
-    'indent': ['error', 2, { 'SwitchCase': 1 }],
+    'indent': ['error', 2, { SwitchCase: 1 }],
     'linebreak-style': ['error', 'unix'],
-    'quotes': ['error', 'single', { 'avoidEscape': true }],
+    'quotes': ['error', 'single', { avoidEscape: true }],
     'semi': ['error', 'always'],
     'prefer-const': 'error',
     'eqeqeq': 'error',
@@ -30,12 +32,12 @@ module.exports = {
     'jsx-quotes': 'error',
     'key-spacing': 'error',
     'keyword-spacing': ['error', {
-      'overrides': {
-        'for': { 'after': false },
-        'if': { 'after': false },
-        'switch': { 'after': false },
-        'while': { 'after': false },
-        'catch': { 'after': false }
+      overrides: {
+        for: { after: false },
+        if: { after: false },
+        switch: { after: false },
+        while: { after: false },
+        catch: { after: false }
       }
     }],
     'no-nested-ternary': 'error',

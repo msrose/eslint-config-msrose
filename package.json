@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "My eslint config",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "jest",
+    "lint": "npm run lint"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/msrose/eslint-config-msrose.git"
@@ -22,6 +25,11 @@
     "eslint": ">=4"
   },
   "optionalDependencies": {
+    "eslint-plugin-jest": "^20.0.3",
     "eslint-plugin-react": "^7.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "jest": "^20.0.4"
   }
 }
