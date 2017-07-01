@@ -4,7 +4,7 @@ const { CLIEngine } = require('eslint');
 
 const configs = [{
   file: 'index.js',
-  code: "const foo = 'bar'; (() => foo + 'bar')();"
+  code: "'use strict'; const foo = 'bar'; (() => foo + 'bar')();"
 }, {
   file: 'react.js',
   code: "var React = require('react'); (function() { return <div>Hi!</div>; })();"
