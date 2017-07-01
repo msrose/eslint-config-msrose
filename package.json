@@ -20,5 +20,8 @@
   "homepage": "https://github.com/msrose/eslint-config-msrose#readme",
   "peerDependencies": {
     "eslint": ">=4"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-react": "^7.1.0"
   }
 }
