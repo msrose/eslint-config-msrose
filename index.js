@@ -23,7 +23,15 @@ module.exports = {
         "func-call-spacing": "error",
         "jsx-quotes": "error",
         "key-spacing": "error",
-        "keyword-spacing": ["error", { "overrides": { "for": { "after": false }, "if": { "after": false }, "switch": { "after": false }, "while": { "after": false } } }],
+        "keyword-spacing": ["error", {
+          "overrides": {
+            "for": { "after": false },
+            "if": { "after": false },
+            "switch": { "after": false },
+            "while": { "after": false },
+            "catch": { "after": false }
+          }
+        }],
         "no-nested-ternary": "error",
         "no-unneeded-ternary": "error",
         "no-whitespace-before-property": "error",
