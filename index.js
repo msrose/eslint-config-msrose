@@ -1,5 +1,7 @@
 /* eslint-env node */
 
+'use strict';
+
 module.exports = {
   parserOptions: {
     ecmaVersion: 6
@@ -13,6 +15,7 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     'quotes': ['error', 'single', { avoidEscape: true }],
     'semi': ['error', 'always'],
+    'strict': ['error', 'global'],
     'prefer-const': 'error',
     'eqeqeq': 'error',
     'curly': ['error', 'multi-line', 'consistent'],
