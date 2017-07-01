@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/msrose/eslint-config-msrose#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">=4"
   }
 }
