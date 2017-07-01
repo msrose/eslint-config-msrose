@@ -1,1 +1,6 @@
+test
 .gitignore
+.travis.yml
+.nvmrc
+.npmignore
+.eslintrc.js
